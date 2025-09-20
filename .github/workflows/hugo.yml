@@ -42,11 +42,23 @@ jobs:
         uses: actions/checkout@v4
         with:
           submodules: recursive
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
       - name: Setup Pages
         id: pages
         uses: actions/configure-pages@v5
       - name: Install Node.js dependencies
         run: "[[ -f package-lock.json || -f npm-shrinkwrap.json ]] && npm ci || true"
+      - name: Verify Tailwind CLI
+        run: |
+          npx --yes tailwindcss --version || true
+          if ! command -v tailwindcss >/dev/null 2>&1; then
+            npm i -g tailwindcss @tailwindcss/cli
+            tailwindcss --version
+          fi
       - name: Build with Hugo
         env:
           HUGO_CACHEDIR: ${{ runner.temp }}/hugo_cache
