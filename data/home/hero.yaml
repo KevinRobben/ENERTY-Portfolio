@@ -1,0 +1,15 @@
+enable: true
+title: |
+  ENERTY [ˈɛ.nɛr.ti]
+
+  Ontwerp software met een ingenieur
+text: "Kevin Robben: werktuigbouwkundig ingenieur met focus op programmeren.\n\nIk los engineering problemen op met software."
+buttons:
+  - label: "Bekijk projecten"
+    link: "#first-project"
+  - label: "Neem contact op"
+    link: "#subscribe"
+# Je kunt later een hero-afbeelding toevoegen in assets/images/ en hier verwijzen:
+# image: "images/hero/your-image.png"
+
+

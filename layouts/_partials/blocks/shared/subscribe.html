@@ -8,6 +8,12 @@
     >
       <label for="subscribe-email" class="hidden">Email</label>
       <input id="subscribe-email" class="bg-white grow-1 shadow rounded-xl px-9 py-5" type="email" name="email" value="" {{ with .placeholder }}placeholder="{{ . }}"{{ end }} />
+      {{ with .phone }}
+        {{ if .enable }}
+          <label for="subscribe-phone" class="hidden">Telefoon</label>
+          <input id="subscribe-phone" class="bg-white grow-1 shadow rounded-xl px-9 py-5" type="tel" name="phone" value="" {{ with .placeholder }}placeholder="{{ . }}"{{ end }} />
+        {{ end }}
+      {{ end }}
       <button class="bg-black text-white py-5 px-11 rounded-xl cursor-pointer hover:bg-black/75 duration-500" type="submit">{{ default "SUBSCRIBE" .label }}</button>
     </form>
   </div>

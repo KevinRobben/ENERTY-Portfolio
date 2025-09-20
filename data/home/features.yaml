@@ -1,0 +1,53 @@
+enable: true
+title: "Projecten en oplossingen"
+text: "Een selectie van wat we bouwen — hardware, software en slimme energietools."
+items:  
+  - image: "images/projects/ModuleMv3 render v2.gif"
+    color: "#08D3BB"
+    icon: "fa-solid fa-microchip"
+    pretitle: "Hardware"
+    pretext: "LoRa + Slimme meter"
+    title: "Eigen printplaat voor thuisbatterijen"
+    text: "Stuurt thuisbatterijen aan via draadloze LoRa-communicatie met de slimme meter voor realtime load shifting."  
+
+  - image: "images/projects/graphbuilder.gif"
+    color: "#5B8DEF"
+    icon: "fa-solid fa-diagram-project"
+    pretitle: "SaaS"
+    pretext: "Installateurs"
+    title: "Schema SaaS voor installateurs"
+    text: "Maak razendsnel elektrische en hydraulische schema’s. Ontworpen voor eenvoud en snelheid op de werkvloer."  
+
+  - image: "images/projects/warmtenet calculator demo.gif"
+    color: "#F97316"
+    icon: "fa-solid fa-fire"
+    pretitle: "GIS"
+    pretext: "Warmtenetten"
+    title: "Automatisch warmtenet in GIS"
+    text: "Tekent en rekent warmtenetten automatisch door voor snelle scenario-analyse."
+
+  - image: "images/projects/terugverdientijd ai.gif"
+    color: "#22C55E"
+    icon: "fa-solid fa-battery-half"
+    pretitle: "Analyse"
+    pretext: "AI + Thuisbatterij"
+    title: "AI Terugverdientijd-calculator"
+    text: "Bepaalt automatisch ROI en payback voor thuisbatterijen op basis van verbruiksprofielen."
+
+  - image: "images/projects/CO2 koelmachine pnid.png"
+    color: "#A855F7"
+    icon: "fa-solid fa-snowflake"
+    pretitle: "Koeltechniek"
+    pretext: "CO₂ transkritisch"
+    title: "Ontwerp van CO₂ transkritische koelmachine"
+    text: "Engineering en simulatie voor efficiënte, moderne koelsystemen."
+
+  - image: "images/projects/ORC Excel tool.png"
+    color: "#0EA5E9"
+    icon: "fa-solid fa-industry"
+    pretitle: "Cycle"
+    pretext: "ORC"
+    title: "Simulatie van een Organic Rankine Cycle"
+    text: "Modelleert en optimaliseert een ORC-generator voor energieopwekking van lage-temperatuurwarmte."
+
+

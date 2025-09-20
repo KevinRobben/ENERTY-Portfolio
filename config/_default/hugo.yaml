@@ -1,0 +1,27 @@
+baseURL: "/"
+languageCode: "nl"
+title: "ENERTY"
+enableRobotsTXT: true
+
+params:
+  description: "Ik ben Kevin Robben. Ik los engineering problemen op met software."
+  # logo: "images/logo.svg"  # zet dit als je een logo toevoegt in assets/images/
+
+menu:
+  main:
+    - name: "Home"
+      url: "/#hero"
+      weight: 1
+    - name: "Projecten"
+      url: "/#features"
+      weight: 2
+  footer:
+    - name: "Over ons"
+      url: "/#valueprop"
+      weight: 1
+  buttons:
+    - name: "Neem contact op"
+      url: "#subscribe"
+      weight: 1
+
+

@@ -1,0 +1,18 @@
+enable: true
+title: "Software die engineering snapt"
+text: >
+  Ik ben een programmeur die engineering spreekt. Je hoeft problemen niet
+  tot in de puntjes voor te kauwen: ik denk praktisch mee, stel de juiste
+  vragen en vertaal eisen feilloos naar software.
+
+  Van interne tooling tot volledige SaaS met database en hosting — ik bouw
+  wat jouw team echt nodig heeft, kosteneffectief en onderhoudbaar.
+bullets:
+  - "Sparren met engineers: ik begrijp technische eisen en edge‑cases"
+  - "Van probleem naar specificatie: functioneel → technisch → implementatie"
+  - "Korte iteraties, duidelijke demo’s, snel naar ‘werkt in het echt’"
+cta:
+  label: "Bespreek je uitdaging"
+  link: "#subscribe"
+
+

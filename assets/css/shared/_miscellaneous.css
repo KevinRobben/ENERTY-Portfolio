@@ -4,3 +4,26 @@
     font-weight: inherit;
   }
 }
+
+/* scroll reveal */
+[data-reveal] {
+  opacity: 0;
+  transform: translateY(16px);
+  transition: opacity 600ms ease, transform 600ms ease;
+}
+
+[data-reveal].is-visible {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* media constraints */
+.media-gif {
+  max-height: 320px;
+}
+
+@media (min-width: 1280px) { /* xl */
+  .media-gif {
+    max-height: 520px;
+  }
+}

@@ -1,0 +1,12 @@
+enable: true
+title: "Kop koffie? Vertel me over je uitdagingen. Laat je e‑mail achter en ik neem contact op."
+method: "POST"
+action: "https://formspree.io/f/your-form-id"
+placeholder: "jouw@e-mail.com"
+label: "Stuur"
+
+phone:
+  enable: true
+  placeholder: "+31 612345678 (optioneel)"
+
+

@@ -1,0 +1,19 @@
+contact:
+  title: "Contact"
+  items:
+    - label: "kevin@enerty.nl"
+      link: "mailto:kevin@enerty.nl"
+    - label: "+31 6 36265390"
+      link: "tel:+3163626539"
+social:
+  - title: "GitHub"
+    label: ""
+    icon: "fa-brands fa-github"
+    link: "https://github.com/KevinRobben"
+  - title: "LinkedIn"
+    label: ""
+    icon: "fa-brands fa-linkedin"
+    link: "https://www.linkedin.com/in/kevin-robben/"
+copyright: "© 2025 ENERTY. Alle rechten voorbehouden."
+
+
