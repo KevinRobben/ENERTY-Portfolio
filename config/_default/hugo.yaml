@@ -2,6 +2,9 @@ baseURL: "/"
 languageCode: "nl"
 title: "ENERTY"
 enableRobotsTXT: true
+disableKinds:
+  - taxonomy
+  - term
 
 params:
   description: "Ik ben Kevin Robben. Ik los engineering problemen op met software."
