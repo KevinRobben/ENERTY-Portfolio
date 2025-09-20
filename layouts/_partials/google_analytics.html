@@ -1,0 +1,13 @@
+{{/* Google Analytics (GA4) - renders only if a Measurement ID is provided */}}
+{{ $gaId := or .Site.Params.googleAnalytics .Site.Params.google_analytics_id }}
+{{ with $gaId }}
+  <script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', '{{ . }}');
+  </script>
+{{ end }}
+
+

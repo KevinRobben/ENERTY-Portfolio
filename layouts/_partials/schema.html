@@ -1,0 +1,13 @@
+{{ $title := cond .IsHome .Site.Title .Title }}
+{{ $desc := cond .IsHome .Site.Params.description (default .Site.Params.description .Description) }}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": {{ $title | jsonify }},
+  "url": {{ .Site.BaseURL | jsonify }},
+  "description": {{ $desc | jsonify }}
+}
+</script>
+
+

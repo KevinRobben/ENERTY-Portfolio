@@ -1,0 +1,8 @@
+{{ $title := cond .IsHome .Site.Title .Title }}
+{{ $desc := cond .IsHome .Site.Params.description (default .Site.Params.description .Description) }}
+<meta property="og:type" content="website" />
+<meta property="og:title" content="{{ $title }}" />
+<meta property="og:description" content="{{ $desc }}" />
+<meta property="og:url" content="{{ .Permalink }}" />
+
+
