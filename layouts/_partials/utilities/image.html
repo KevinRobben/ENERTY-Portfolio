@@ -36,16 +36,21 @@
     {{ end }}
     {{ $srcset = delimit $srcset ", " }}
 
-    {{/* Return the img element: */}}
-    <img
-      {{ with $resource.Permalink }}src="{{ . }}"{{ end }}
-      {{ with $resource.Width }}width="{{ . }}"{{ end }}
-      {{ with $resource.Height }}height="{{ . }}"{{ end }}
-      {{ with $srcset }}srcset="{{ . }}"{{ end }}
-      {{ with .sizes }}sizes="{{ . }}"{{ end }}
-      {{ with .class }}class="{{ . }}"{{ end }}
-      alt="{{ .alt }}"
-    />
+    {{/* Return a picture element with WebP source + raster fallback */}}
+    <picture>
+      {{ with $srcset }}
+        <source type="image/webp" srcset="{{ . }}" />
+      {{ end }}
+      <img
+        {{ with $resource.Permalink }}src="{{ . }}"{{ end }}
+        {{ with $resource.Width }}width="{{ . }}"{{ end }}
+        {{ with $resource.Height }}height="{{ . }}"{{ end }}
+        {{ with .sizes }}sizes="{{ . }}"{{ end }}
+        {{ with .class }}class="{{ . }}"{{ end }}
+        alt="{{ .alt }}"
+        loading="lazy" decoding="async"
+      />
+    </picture>
   {{ end }}
 {{ else }}
   {{ warnf "Image Optimization: the image '%s' has not been found. (%s)" .src page }}
