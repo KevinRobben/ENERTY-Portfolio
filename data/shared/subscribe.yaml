@@ -1,7 +1,7 @@
 enable: true
 title: "Kop koffie? Vertel me over je uitdagingen. Laat je e‑mail achter en ik neem contact op."
 method: "POST"
-action: "https://formspree.io/f/your-form-id"
+action: "https://formspree.io/f/mpwyayzk"
 placeholder: "jouw@e-mail.com"
 label: "Stuur"
 
