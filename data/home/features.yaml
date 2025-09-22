@@ -34,7 +34,7 @@ items:
     title: "AI Terugverdientijd-calculator"
     text: "Bepaalt automatisch ROI en payback voor thuisbatterijen op basis van verbruiksprofielen."
 
-  - image: "images/projects/CO2 koelmachine pnid.png"
+  - image: "images/projects/pnid co2 transcirtisch.gif"
     color: "#A855F7"
     icon: "fa-solid fa-snowflake"
     pretitle: "Koeltechniek"
@@ -42,7 +42,7 @@ items:
     title: "Ontwerp van CO₂ transkritische koelmachine"
     text: "Engineering en simulatie voor efficiënte, moderne koelsystemen."
 
-  - image: "images/projects/ORC Excel tool.png"
+  - image: "images/projects/ORC simulatie.gif"
     color: "#0EA5E9"
     icon: "fa-solid fa-industry"
     pretitle: "Cycle"
